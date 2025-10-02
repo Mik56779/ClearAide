@@ -13,7 +13,7 @@
                         screen reader optimization, and step-by-step guidance.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <NuxtLink to="/tax-filing"
+                        <NuxtLink to="/dashboard/tax-filing"
                             class="btn btn-accent text-lg px-8 py-3 inline-flex items-center justify-center">
                             <svg class="h-6 w-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -21,7 +21,7 @@
                             </svg>
                             Start Tax Filing
                         </NuxtLink>
-                        <NuxtLink to="/health-insurance"
+                        <NuxtLink to="/dashboard/health-insurance"
                             class="btn bg-white text-primary-600 hover:bg-primary-50 text-lg px-8 py-3 inline-flex items-center justify-center">
                             <svg class="h-6 w-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -213,7 +213,7 @@
                                     E-file and direct deposit
                                 </li>
                             </ul>
-                            <NuxtLink to="/tax-filing" class="btn btn-primary w-full">
+                            <NuxtLink to="/dashboard" class="btn btn-primary w-full">
                                 Start Tax Filing
                             </NuxtLink>
                         </div>
@@ -274,7 +274,7 @@
                                     Special enrollment assistance
                                 </li>
                             </ul>
-                            <NuxtLink to="/health-insurance" class="btn btn-accent w-full">
+                            <NuxtLink to="/dashboard" class="btn btn-accent w-full">
                                 Apply for Insurance
                             </NuxtLink>
                         </div>
